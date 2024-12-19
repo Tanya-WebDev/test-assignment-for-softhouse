@@ -23,4 +23,10 @@ This project is a simple logging system designed with flexibility in mind, allow
    ```bash
    docker-compose up -d
 
+3. **Make Composer install the project's dependencies**
+
+   ```bash
+   cd my-project/
+   docker-compose exec php composer install
+
 These steps are enough to get the current App running locally.
